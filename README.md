@@ -5,7 +5,7 @@
 3. Commit this folder to Git
 4. 'heroku login' and type in your credentials
 5. 'heroku create -n [YOUR-APP-NAME]' where YOUR-APP-NAME refers to the title of your Dash app
-6. 'heroku git:remote -a [YOUR-APP-GIT-URL]' where YOUR-APP-GIT-URL refers to the Git link returned by 5.
+6. 'heroku git:remote -a [YOUR-APP-NAME]' where YOUR-APP-NAME refers to the app name returned in step 5.
 7. 'git push heroku master' will deploy your app to Heroku
 8. 'heroku ps:scale web=1' will create a Dyno and make your app live
 
