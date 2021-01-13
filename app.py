@@ -12,8 +12,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
 
-import pandas as pd
-
 # Setup the app
 # Make sure not to change this file name or the variable names below,
 # the template is configured to execute 'server' on 'app.py'
